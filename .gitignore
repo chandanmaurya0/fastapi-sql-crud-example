@@ -1,0 +1,67 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Python specific
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+.eggs/
+
+# Cache
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+.pytest_cache/
+celerybeat-schedule
+*.coverage
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# FastAPI-specific
+.env
+*.env.*
+*.secret
+alembic/versions/
+instance/
+static/
+
+# Dependency management
+poetry.lock
+Pipfile
+Pipfile.lock
+requirements*.txt
+
+# Docker
+*.pid
+*.swp
+.dockerignore
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.temp
+*.orig
