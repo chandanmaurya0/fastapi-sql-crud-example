@@ -34,7 +34,7 @@ To run the application in development mode, use the following command:
 
 Server will start running at this url 
 
-```http://127.0.0.1:8000```
+```http://127.0.0.1:8080```
 
 
 ### Additional Notes
