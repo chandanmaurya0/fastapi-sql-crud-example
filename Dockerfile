@@ -12,7 +12,7 @@ WORKDIR /app
 RUN pip install --no-cache-dir poetry
 
 # Copy only the necessary files for Poetry to install dependencies
-COPY pyproject.toml poetry.lock /app/
+COPY pyproject.toml /app/
 
 # Configure Poetry to install dependencies to the system
 RUN poetry config virtualenvs.create false \
